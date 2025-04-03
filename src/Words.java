@@ -1,4 +1,16 @@
-package PACKAGE_NAME;
+public class Words {
+    private String word;
 
-public class SmallWords {
+    public Words(String word) {
+        this.word = word;
+    }
+
+    public String getWord() {
+        return word;
+    }
+
+    @Override
+    public String toString() {
+        return word;
+    }
 }
